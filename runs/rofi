@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 
-sudo apt install rofi
+# From Prime's config, could be useful later
+
+# Window manager
+# https://github.com/davatorium/rofi
+
+# sudo apt install rofi
 

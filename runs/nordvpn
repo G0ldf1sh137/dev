@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# VPN Client
+# https://nordvpn.com/download/linux/#install-nordvpn
+
+# Install
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
