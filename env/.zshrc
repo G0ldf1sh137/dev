@@ -83,6 +83,8 @@ ZSH_TMX_AUTOCONNECT='true'
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# TODO: Move custom folder to config dir so it can be included with our config setup
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -154,6 +156,8 @@ eval "$(pyenv init - zsh)"
 
 # load pyenv-virtualenv automatically
 eval "$(pyenv virtualenv-init -)"
+
+# TODO: Add the Pyenv stuff to zsh_profile
 
 # export DEV_ENV
 export DEV_ENV="$HOME/personal"
